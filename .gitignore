@@ -1,0 +1,24 @@
+# FreeCAD
+*.FCBak
+*.FCStd1
+*.FCStd~
+
+# QGIS
+*.qgz~
+*.gpkg-wal
+*.gpkg-shm
+
+# Python
+__pycache__/
+*.pyc
+
+# Large raw source scans/exports — keep source-data/ light in git.
+# Reference small/derived files explicitly with git add -f if needed.
+source-data/kadastrs/*.tif
+source-data/kadastrs/*.tiff
+source-data/photos/*.heic
+source-data/photos/*.raw
+*.zip
+
+# OS
+.DS_Store
