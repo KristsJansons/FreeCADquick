@@ -1,0 +1,2 @@
+# FreeCADquick
+Automated FreeCAD use
